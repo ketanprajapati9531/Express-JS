@@ -1,0 +1,9 @@
+same as a express9 folder same
+
+but only css file add in views 
+
+
+extra css add in new file in views folder
+like
+
+<link rel="stylesheet" href="views/mystyle.css">

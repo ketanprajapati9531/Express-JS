@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+    
+  </style>
+    </head>
+    <body>
+      {{>header}}
+       <section class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://storage.googleapis.com/ezap-prod/colleges/7802/apollo-institute-of-engineering-and-technology-ahmedabad-campus.jpg">
+    <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Knausgaard typewriter readymade marfa</h1>
+      <p class="mb-8 leading-relaxed">Kickstarter biodiesel roof party wayfarers cold-pressed. Palo santo live-edge tumeric scenester copper mug flexitarian. Prism vice offal plaid everyday carry. Gluten-free chia VHS squid listicle artisan.</p>
+      <div class="flex w-full justify-center items-end">
+        <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+          <label for="hero-field" class="leading-7 text-sm text-gray-600">Placeholder</label>
+          <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+      </div>
+      <p class="text-sm mt-2 text-gray-500 mb-8 w-full">Neutra shabby chic ramps, viral fixie.</p>
+      <div class="flex">
+        <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+            <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+          </svg>
+          <span class="ml-4 flex items-start flex-col leading-none">
+            <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+            <span class="title-font font-medium">Google Play</span>
+          </span>
+        </button>
+        <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-200 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 305 305">
+            <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+            <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+          </svg>
+          <span class="ml-4 flex items-start flex-col leading-none">
+            <span class="text-xs text-gray-600 mb-1">Download on the</span>
+            <span class="title-font font-medium">App Store</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1201x501">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Buy YouTube Videos</h2>
+        <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+        <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+      </div>
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYUAAACBCAMAAAAYG1bYAAAA81BMVEX///8rWKB/q0EiU54ARZgcUJI1Yp4AR5kfUpMaT5wxX5wVTZseUZ0uXZsjVZW3wdmNn8Tu8fagr84oWZist8sAL3oMSprZ3ueJm7i9xtbQ1uWdq8MAOX+ms9D09vl1pSvFzdvY3up6qDd6kLyYqMp8kLHl6e+otMmruNMAR46JmrgUSocAJ3dGZ5cAPosAMJBthrdhe6RRb5xifbJjfrOHmsJthKkALXonU4w4YKRQcKzL27hFaaiQtV/r8eSXumsAQIIAPJRMcKW2zZrR38Dd6NGFr0ykwn8AIHU9YZQAKI4AK44AQYvA1KlpngCzy5bm7t0552onAAAUNklEQVR4nO1dC1vaSBcOQoRwNRIJIRqCkEBQKaJQtdZadnvx++y2///XfHPLzCSZXHRL+z278z67EpK5nvfMOWcuoYoiISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISHxW+CMrJPJwXp9MPndLfk346OqqjUAdaH/nAI7Vz+nHBF86/BgDLGedEa7q+al0N1Z2KzZ4FViDFpdjMDEN/btv0fH/ces/Ff/efPmYyWOxu3VOlesg7FWbWhao1et9hrgo3J3KKxpnKzi45s3/9XSyk1JXy7SWQB/clvpaU2NNuv2oLCC+A65YCy46HsnCBaXf0PPRlXtIDOBPhhXSxRlINcy/Gw2qtraT8/WKfVgukZjfNLpHC6rDZBHq1yLW+pPuCpK5VInR7Femp5hcFfRQBbQksNO52Rc7oEvzeptp0he5yC4JJeUBdVG39V2u60+rzLkkY1ludTLSzNr0A4vO7PJske+NytLR5xjdNtDycsdVgYiLy2H2ePEWqDZo+rL0mM4ywpsRakyCVvh3kJSSr3bfEU21HZLxd7YoSy0t/D7AWQB8LDwCjclAr8C9HWWl4r2VztB3ztoPECp9gai9AcVzBLvcpz7Ms7hCqsYl8M68psTS19IkSHcXhPrBq+za6wvlZxoR9/WWvVWPUCNM9WQhe4zGIbuMyKhXas9z4u2JYI1bNdtXqpl2GXtEN9wbsM7FQENV3islGN+H9NQEvf3RAul2itkXw9fmB5gUiGdiNqvNS6pkRmluGqrXgcs1AMogUmNstBe6R1CAmAhKNiUKBzUsBT1ZBjHWVB0ahEqCZt83xRbCodYnd5aUEWHSbWQdWVWslrQGq9J9ZU4a3f4fvM+Pe8kqNcxCy11axlqi7LQrQVBO2QhsIs1JQasUeW7vA6EcqUsKJNQaonMROVL1cQoCSXXE8QDnRdKlUtfzDUfEBKaicr9SkpPuMxdykKrq9a6HAvtdpeysEhxkzkgAqvkdPwgyYJPB0NM2tckbdweQdDxkzTlL5XqS9PPwvY2ks/Coa4tU7O3GQsAKSyol6n5i3SlPM5OJ2CBeexmJPNJGOxUBeaaGv8k7TtmIdT3kibwSlSjqqmOftYuwMIrDdItVc7soSRigXrsEj+/0sPeCl2+Ez4tJ2zwjllg0YQo9V34tJoqB7UIC9MwtVmkCwQDalVEGsJBxMKassA3/Sq82xSWSB/34lq3WxZOwtRJ+tFj6uRSbdK6W8AiocmD4nS2b18QsVKZRPU5CREL9B7vThmv4viRxaPxAGq3LNDEYuUY0Tljqoe02jEWaipCm/fO6vZkOt8uAlVduEU6AUFtZSlv6pPDAhMD47UqLGhAu9uzok92ygILa8WzTIUqT8JDrl38GWVBDbbrWceypvOrIFApCzU1AF8RCs8cxuUyGwwZwXKeRarQe8wrpER9bJoRD6F2ygL1f2mG/54mqEQfWGq7NRk4YOrM/EI7uLK4YgbesxqygFa7MQubIr2ArrI5YS42Gd1zELFwTbMyP8wMTlk0M1M4pYsHBLtkgUXVpaY4Rep6SHd/f7/VBlJthSx0g03cajl9zAPPgrooNqWfNCs6sxDl64ykIhaoQeI8OzNIZMEpAaZ0se7ukgXOG6VMzCZMfSIm6RCyAFEP5wvtlkhd9W0QZ4G46jw0YEDAxmrWzC1z1sZlZI4mzc8wnprR0bJLFtiIb6ZMjGaMp0jYUNuPsVBLC6ImizgLiyzrwroB51XMbzVTbAiEgAW6qMF1zGfL0ylekBv6Mc+xSxaY90suX8RLi1jKk1aMBTVdSJ1FjIXn/QLduMViYIITRzUISRZofFXmdMdlfUlb6KTklWLbGrtkgQ1RzqJGkNLy+n6UhXbW/kHnOeKdA7vAopLbw7EiCzgbKaZcEbDgUI1ucDKYcX1JsW+sulg0skMWOOectnfB/GOp4dK7bjvKQjd7i34SMBYW/SKdgJN29Klzk4bUxIwFssvTIIO8ccuLgK35p4pm0kxJskMW2JyspKW4K54FlmQcHQutdo52b9WQhUI+Ae4YhmrBXFd8IsVAWSgv4W6tRiSgxTZsUkVcIMkOWRCLOAIxUUu1zrOgpsnn25/4U18QFoKCx5SW5dAss0WH9PV1ZkfKjYZWLoHpXrNRuT2M6UYBFg5/71gowAKfxPdUxkIrNfT88dcXfDEPCAvFNmH1CosW7tnMLW2iwVhoVio9rXR/NZ5Yyc6fvMwiRTj8vRaJZyGi8eZ+PWRBdVNrGJ5+QJ/OglikPNuFcaCxFV7Wn9RtBspCM92DR0pK3TBj06Nf5531F3nneIy9rYdjIb2GD3vDb+hiHBDvHKRadw49fgmXE0xKh0Rz55y+pAwrLkaKBgO/KFJN0SI3XX86XcxCN8PWfz/dG+JynsNI9Vmd5O3czhq88ZmIFiMiKMgCp3SpszbmYaKz0F2ywBYICsza4tOmZQuzUMtYF/p2unf6Dl0t2KwtWNS8TCKijtjhFh7E6QuywJbxC6xgxIraJQvchD13BSMWooy2LeIX1IwK3gEWsGcAwarKsMgy4FZPi5it3BNZRVlY5q7mMbWM2axcqeqTl6X3J4K0pZR5Fxd+sGzOYLLfJrFqvZW1HgFY2PuMrtYBz0KQteUGoiKtyoGts6QcECvKAufoc1e2G2lZU6R6+ObV6bmZacrK9lIQJ1pBly4jARbSz2cgi0Qcgx1lIWPFY1Qt9aJg/jnlxGNBFpy8XR62mBBfPMyV6v0Lvfktp1B3tH8puzxsiLJaLMYBYKGbdUwFeOe9U3RlRFnI2OpZlrXRIIITpsPCIVuUBc75VoTPLVpRfCE9T6p+5er16Ttso1WoZUx7uMW0GAsZS84gUt3be49rKsqCX0melWc2SbjNUJgFtpUtDlXZUkic7TypTnrjv5Gedk+8+89th7ObURZaWWNhCIbCd3Q1jbKQnmndTE4LDlP2mggKs8AMrLi77ABU/MROnlTL2su8sxZJTweD+CQM7V+D69+gG2EhY+vsE2Bh+IAuJ0W9c1UgaC5YFR0QK85C9qkw6ha0RBNypNppxMK33PTRxQq6TCMc68wUcDdHERbqtUSud++Hf6GLL8At4EBV2UQi1efUmd6hJlouWqfF8QjFWVBmWSckmUFKPMqRamTd/xXpM09IUoMUOc6ttyMsqIS+b+Hz90MSGD3Ai0/4pkpnbcFi8bwwBE1D0ISDkjubJDgg9gIW2GlhwXGCqqi3GNlntieNl80vJlo8fdZp4XAq2YsyVIuw0MZj68OQaP0fYABgO/ThNPTNik9XMAIv65TkidYUSpIFc4KZG9tkzmeBHglNivqAeB/BkW1OqoJtulElIexM1gTplXG4KZIYDOHafvzINlzHq1MWWvhANvUAkIS94Q9F+RMOBbLDYIereTknMBopwRo3v0yai3G2z43CKZHUcc8wIuOtIqKSYyHBng+fxULfWVb6XjI9CBxIjoRnCMd5PGw72F4tl1uVrObVA0Trl1MSDQ0RC5+QPSITZ0XpUouUsQKLAvqU5c6shUd6AizviD2Cc6+JdMsJx4hwcYNFaYklKLcn0A22XZTYM7CwbieqCN9VjWkH6VwvbXLcaWMWuii+/zEkik9YeIBjgizloSXVcE11mlIcTAZkrYnXirjpY8LSsuXo3FfgEEh/G3zHdMJjymrrNbeMEonSBteosPhknDvpfBtNf4UrF0zeZ/gNz3Jks/wa05/xduFVHe94BmgQfSc0IIt0+gV/kJR1lTub56aV18EdEgUVDv9Sc8x/c5sCGQc1eLhlNPy1W9qUQ1x12pu2A/7N2d5ycnh4AnB4cN3oYXHHFsLdSPqxIL1o1Pp3aM2s3KO9sEqob1lv2jq1cPcf23rgjOGeDpE/+kPippOAP490JFxW1jt31bDVnQFvHHV/NCtxulgqN09G9FHnrsH3+Loz8ou8MdBE4uhp48PZbHJVhRrXrNwJBoKj+4M1L1RYv9aA0JrsVN1BkfSaIH0E7n0Vil2rXk9ms0N8jqHcK2XtE8OhgE/C1LBDew9o+PDwCRGwxw0FfxE5FaYuRK/2TD5qZYJGr/qG6aTz30ql1yxH0HuDabr+WKlqkSdatfKxiHdQrGW112iWNSzNZqNaOhAGb2tQRaOcB6a+42Lp096aHq3L1YaGeQMfjV5v7GZ1Yxl6Z2iTcMrPp3unw8+MBDwUnJoaZeG5yK7nL8Botr6G54Nv75YHnVf/PMFPh985WN5BP3h/vZ5lH63W6S4PpgGP5T02DvbCNW1lX63FWNh1P/4tsOguDzktTHb1eRJO/0C3WmrsnGpQYG4lUQRbNmsjJ+fxga+H0/hQ8ILEme3f2vJ/Ekw1zkKrtoWmldGAh8LoOf7+wvPrXruVEGDcirPQ6gbwJDClAS9obGuJt0h+c8v/SXDaCRZarVpbx5sK1CCZz+yNquB58RwEBc8LSxSChVZWW+2a2uXe8ezi9WwEmGrC3mt7tnXHNLYFXy6UKIZxd7+lbju+73W5N21tspBExsIlZUEtNJeSeCm26hLNNh2VGwvbKAvILSAWCh7XlnghdJdc8CzUyXIe2VrYqJKFXwOfY6ENzD5ZwjiF7y5Y1DtnHseT+NvotDm/AKbQ7/lZ20oN/UKRNzslXo2rViRGCv0COYmk1kiMtPj/WS/7B8IPWKQKV5Pe0dkzmreZ5K3zQJUs7BBem7LQhjtO3HIeOoBxEsDfhFnIecJOMdoP/QIMkNAxbToY0AbDpQoGgvt7G/kvgK22EQtw/5nOnDEN6EyYupDx0S+AcxC0u8gp0AAp4hryPYJuX66M1/3cZyYG3uXctu3Vb9jdcy7mtncJ6s44dPKzq5zVA7ih/eV0L4aiJdysdtIw8wgS4Bf73YefCt9WlP4REM0rf2P8dYA7pN+GcRLIa235eLoEczx4fNWxDFNx7Kk1cAzDsAzDNA3D9dGl4VuW4cOEpotvOBb8Gx57dW0bCt1F99DQ8o/RMBiALPC7ZcAlXQuWDj5AWeFt00fFWYqJPkeoDPjLZ6ACSzcs3DA4qKf2dEDPCThohRi1mxbi4kfwX0PoHyvQFKAi4W0HjEvThEU68I8fdtiH1mAK/6kKkNaifcHdIpnAAx08NnJPmLyjU4VTFq5+y8vFWFBuYCSlA8V9Ao2/NKeK8QT1eH6hTE1l0weiUbBUN4rnKF9NxVP8r6C3c9y0S9Bs9wmWA6zAFG2cmyg9lNrlE0oCqzIgO+ACjpPVBS5PMW7w5wborg4c2ZOtuG+BePyv4M8xHEygPYp/Bsqy6LidXuDGoxsg4xQU4h5T+4dYAI7zAg8J8wwU1bcVHRbpgOYrZ3CgwFGDmv0EmLKOcNYNuDmCTRrcgM7ZoKPnsNjE77ElEI6E4d6XP75QHuCR1aIszG9syL1iwurhjygYoP2+Ym/AH8gC+DhzUfcU8PAIjBlHP4LKjPTeRrKYA0muoBb5mAXbHBh99HSDMiorFCtAPYdl2Rcevm3BOkGpcw/nhfZ8Be6jCrxHyBwQwzGqnm4Xbo5RLf2nOS4Etlcxz0NRERaMFSraeYvG0FRxjqDWHIFU3hmoRQd3UBb9XFfcM5RlinTGvgT3fFKjAZ6YqYfdQ3zHJAzf48Pyf1DrVJyFvn7uQhaUsxXWbtQryIKCWVAoCwpiAQvJwcr3iJo4eOtAFkxsNSALpoFl9AgKniv+W2pPYFng9hTeRizA02iQBehQIQtQ5oiFvg80F7BgHEcabZkesvp959hgLChPYUxIWJiuEOv2DbnNWOj75wPIgo1lD5SQsHCGiDbfOv0nWhtQn9xZ13us/MN34Y3QPp1+ycuKWo5YUFxAPRwPl+dI0AVYOJ4aHmYBOWLgj01ltTHIv3+CLRLMA+QPKJ4DgwGtveFNQxbwbcCCYVwA6fRXBrIzlxv7CebFLCjGkQNYmEOZ6Lbn4kaDMfrWQc0xv44YC5vwd8XDsfBkANPKbjvHNnAUcBj1Feut70yhzUVy9kIWjpBG+UfmBvbdt+H7Bs6xl+MU/hyeYofA2Z8wYCpkkwgLiv2oYzV4gh0uNhbID0cf47EAFA1aJJ4F+A0IGlDcR88Bzs2QBSAInVgkh1gkWN7K0N/SCsBz7wawgNV5dI7bbF4aFjQpSP5HOmXhIgyLuLEAnLV3QW5zYwH8d+ZPw2Hy1A9ZeETxrXmke4g6ZC6JHFLx8B7p/ekwqvYviZNCFpQNcK3oqOnjSMQC0s84C5gGDyWDrnBFzSeJkcwBymKf9UPDdcRYUPo3oV8ABSG/AD6BRYKWmLKgrEDV2OSboQcF/w8eSXM86NNQe53zcG+dYwG24Ry5Lz3KgnJ5Y+AYAzlszILfR8IH3sF9Cy+sJyaHFDx8QQPhdPg+pvT0IMBDRm6CM9h+JADIArw4c+BYRrWjJmEWkGTmSNHPEQuwaz6eGcH4RX8EPbxgP6+OzJT+hEw/6LGHTZYCAyzl0SVVrohfUEAA6xFvvQJChQ4dVYBSPYKikNKaX1HZeNCeWeTxhY3b69xQ5+0dI7kjCzf1sd0BCuGcQxYgobjDBhEwjIvcR3AxsJQbwKTzCJNACrGK9LNY+PRhCPD5e1LWn4cIf70T5IoAmFpv6rjI3uoG+Nqfzk2oEvCOOYd/B94caby1mqMLYNpBgO1MPduYboi97NvTOei36/VJlDKYe3DuvAHeGjsPKCB/49ke6LkFCqC3QVVTA8jCnM8NA0SToAxT0Te2PwUNszyo3SZyMZd9G31TnD4M8IF/NgeoEGDeQSH2tE+9v+F5Nu6FYdgezgxCbgcWCZtPOuyjcufTuYs8AGoGaBLoC+qWBWuEZQI5ZB9geRBr+8OnHz8eHlIeSkhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEj86/E/xrQUdy6Ewp8AAAAASUVORK5CYII="></div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">The Catalyzer</h2>
+        <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+        <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="lg:w-2/3 mx-auto">
+      <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
+        <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/820x340">
+        <div class="text-center relative z-10 w-full">
+          <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
+          <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-2">
+        <div class="px-2 w-1/2">
+          <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+            <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/542x460">
+            <div class="text-center relative z-10 w-full">
+              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
+              <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="px-2 w-1/2">
+          <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+            <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/542x420">
+            <div class="text-center relative z-10 w-full">
+              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
+              <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      {{>footer}}
+    </body>
+</html>
